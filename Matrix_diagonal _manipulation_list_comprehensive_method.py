@@ -11,9 +11,10 @@ def extract_and_transform_diagonals (matrix):
 
 
 matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+    [1, 2, 3, 5],
+    [4, 5, 6, 8],
+    [7, 8, 9, 10],
+    [4, 6, 9, 12]
 ]
 
 result = extract_and_transform_diagonals(matrix)

@@ -6,9 +6,9 @@ Return the resulting list.
 """
 def flatten_and_filter(nested_list):
     n=len(nested_list)
-    return [element for item in nested_list for element in item if
+    #return [element for item in nested_list for element in item if
             element % 3 == 0 and element > 10]
-    #return [nested_list[i][j] for i in range (n) for j in range (n) if nested_list[i][j]%3==0 and nested_list[i][j]>10 ]
+    return [nested_list[i][j] for i in range (n) for j in range (n) if nested_list[i][j]%3==0 and nested_list[i][j]>10 ]
 
 nested_list = [
     [4, 9, 12],

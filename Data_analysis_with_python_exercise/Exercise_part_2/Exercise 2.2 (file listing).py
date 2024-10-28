@@ -6,5 +6,5 @@ def file_listing(given_filename):
         return[(int(size), month, int(day), int(hour), int(minute), filename) for size, month, day, hour, minute, filename in match]
 
 
-c=file_listing("C:/Users/Foad/Python_exercise_for _data_analysis/Data_analysis_with_python_exercise/Exercise_part_2/listing.txt")
+c=file_listing("./listing.txt")
 print(c)

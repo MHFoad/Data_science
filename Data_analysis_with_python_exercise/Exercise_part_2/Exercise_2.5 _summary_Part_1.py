@@ -17,7 +17,7 @@ print("{:.6F}\t{:.6F}\t{:.6F}".format (total_sum, average, stddev))
 
 """
 def summary(filename):
-    with open("./example.txt", 'r') as file:
+    with open(filename, 'r') as file:
         result=[]
         for line in file:
             try:

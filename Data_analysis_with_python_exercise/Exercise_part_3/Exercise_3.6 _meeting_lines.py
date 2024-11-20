@@ -23,8 +23,8 @@ def meeting_lines(a1, b1, a2, b2):
 
 def main():
     # Example coefficients
-    a1, b1 = 3, 7  # Line 1: y = x + 1
-    a2, b2 = 5, -8  # Line 2: y = -x - 1
+    a1, b1 = 3, 7
+    a2, b2 = 5, -8
 
     x, y = meeting_lines(a1, b1, a2, b2)
     print(f"The lines meet at ({x}, {y})")

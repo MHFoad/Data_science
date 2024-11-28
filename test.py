@@ -1,8 +1,9 @@
-import re
-def integers_in_brackets(s:str):
-    pattern = r'\[\s*([+-]?\d+)\s*\]'
-    matches=re.findall(pattern, s)
-    result=[int(match) for match in matches]
-    return result
-text= " afd [1asd1] [12 ] [a34] [ -43 ]tt [+12]xxx"
-print (integers_in_brackets(text))
+import numpy as np
+s=np.array([[1, 6, 7],
+ [7, 8, 1],
+ [5, 9, 8]])
+
+x=np.array([1,4,2])
+print(x.shape)
+y = np.matmul(s,x)
+print("y=", y, sep="\n")
